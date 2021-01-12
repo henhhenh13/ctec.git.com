@@ -1,0 +1,38 @@
+:root {
+    --blue-color: #192f59;
+    --white-color: #ffffff;
+    --green-color: #3db166;
+    --text-head-color: #96a2b8;
+    --header-head-height: 60px;
+    --header-nav-height: 100px;
+    --text-color: #585858;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.ctec-container {
+    max-width: 1360px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+.text-color {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 800;
+}

@@ -201,6 +201,7 @@
     height: 40px;
     line-height: 40px;
     padding-left: 15px;
+    list-style: none;
 }
 
 .header-nav-dropdown__link {
@@ -212,9 +213,27 @@
     transition: 0.3s;
 }
 
+.header-nav-dropdown__item:hover > .header-nav__dropdown-two {
+    opacity: 1;
+    visibility: visible;
+}
+
 .header-nav-dropdown__link:hover {
-    color: var(--blue-color);
-    
+    color: var(--blue-color);   
+}
+
+.header-nav__dropdown-two {
+    position: absolute;
+    background-color: #e6e6e6;
+    padding: 0;
+    right:-100%;
+    bottom: -300%;
+    flex-direction: column;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    transition: 0.8s;
 }
 
 
